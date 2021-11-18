@@ -1,0 +1,189 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    height: 100px;
+}
+
+.logo{
+    display: flex;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.hello{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: auto;
+    background: url(yellow-background-4.jpg);
+}
+
+.text1{
+    color: rgba(46, 49, 49,1);
+    font-size: 50px;
+    padding: 50px;
+    margin: 50px;
+}
+
+.lorem{
+    display: grid;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.photos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 20px;
+}
+.photos>img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+}
+
+.started {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: RGBA(247, 202, 24, 1);
+}
+
+.workers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dwight>img, .pam>img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.pam>img{
+    margin: 16px ;
+}
+
+.workers>img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.aprasymas1>h4, .aprasymas2>h4{
+    padding-left: 30px;
+    margin: 10px;
+    color: RGBA(247, 202, 24, 1);
+}
+
+.aprasymas1>p, .aprasymas2>p{
+    padding: 0;
+    margin: 0px;
+ }
+
+.yellowLine{
+    width: auto;
+    height: 20px;
+    background-color: RGBA(247, 202, 24, 1);
+    margin-top: 10px;
+}
+
+.greyBox{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 600px;
+    background-color:grey;
+}
+
+h3{
+    color: RGBA(247, 202, 24, 1);
+    padding: 0;
+    margin: 0;
+}
+
+.team1>p, .more>p, .community>p, .contact>p{
+    color: white;
+    padding: 0;
+    margin: 0;
+} 
+
+
+@media only screen and (min-width: 768px){
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+    }
+    
+    .photos{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+        gap: 20px;
+    }
+    
+    .photos>img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin: -5.5rem;
+    }
+
+
+    .started{
+        padding-top: 100px;
+    }
+
+
+    .lorem {
+        display: block;
+        width: 80%;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+   }
+        
+    .workers{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .aprasymas1, .aprasymas2{
+        float: right;
+        align-self: center;
+        padding: 30px;
+    }
+    .dwight>img, .pam>img{
+        height: 100px;
+        width: 100px;
+        margin: 0px;
+        border-radius: 50px;
+    }
+
+    .greyBox{
+        width: auto;
+        height: 200px;
+        padding: 40px;
+        display: flex;
+        justify-content: space-between;
+        }
+}
+
